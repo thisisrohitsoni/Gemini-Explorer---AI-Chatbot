@@ -29,7 +29,7 @@ def llm_function(chat, query):
     st.session_state.messages.append({"role": "model", "content": output})
 
 # Streamlit front-end code
-st.title("Gemini AI Chatbot")
+st.title("Gemini Explorer - AI Chatbot")
 
 # Capture user's name for personalization
 user_name = st.text_input("")
